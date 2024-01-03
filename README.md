@@ -129,17 +129,7 @@ digits
 
 ### Putting It All Together
 
-To end this lab, we'll have you put your newfound regex skills to the test to see if you can write a pattern that gets the phone number from the bottom of the menu. How you match it is up to you, just as long as you get the phone number! It's okay if the dashes and parentheses are included in your match, but not the exclamation point at the end. 
 
-In the cell below, write a regex pattern to match the phone number from the menu, and confirm that it works by compiling it and running in it. 
-
-
-```python
-pattern = '(\(\d{3}\) (\d{3}-\d{4}))'
-p = re.compile(pattern)
-digits = p.findall(file)
-digits
-```
 
 ## Summary
 
