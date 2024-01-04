@@ -88,7 +88,6 @@ That's better, but still not perfect! Now, the pattern only gets the first digit
 
 To fix this, we could also get the next 3 characters that follow a match by adding `.{3}` to the end of pattern. Let's try this in the cell below.  
 
-
 ```python
 pattern = '\$\d.{3}'
 p = re.compile(pattern)
